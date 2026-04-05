@@ -53,15 +53,21 @@ Utilize estes testes simples para validar se o **FraudGuard AI** está operando 
 
 ---
 
-## Resultados
+## 📊 Resultados e Conclusões do Projeto
 
-Após os testes, registre suas conclusões:
+Após a execução dos testes controlados no simulador **FraudGuard AI**, registramos as seguintes conclusões técnicas e de negócio:
 
-**O que funcionou bem:**
-- [Liste aqui]
+### ✅ O que funcionou bem:
+* **Precisão da "Regra de Ouro":** O motor de IA identificou corretamente o risco máximo (**100%**) para operações realizadas após o expediente (22:30), validando o padrão histórico de fraude confirmada.
+* **Análise Contextual de Valor:** O sistema demonstrou sensibilidade ao teto de segurança operacional, elevando o risco para **80%** em transações de R$ 1.000,00, mesmo dentro do horário comercial (15:00).
+* **Justificativa Técnica (Explainable AI):** A integração com o modelo LLM (Groq/Llama-3) gerou explicações claras e acionáveis, facilitando a tomada de decisão do analista humano.
+* **Interface de Simulação:** O painel permitiu a validação imediata de diferentes cenários, provando a robustez da arquitetura agêntica.
 
-**O que pode melhorar:**
-- [Liste aqui]
+### 🛠️ O que pode melhorar:
+* **Latência de Resposta:** O tempo de processamento das justificativas depende da estabilidade da API externa; a implementação de um sistema de *cache* para regras fixas reduziria o tempo de resposta.
+* **Refinamento de Lógica Difusa:** A transição de risco entre 21:59 e 22:00 é binária; implementar uma lógica de "proximidade de horário" tornaria o score de risco ainda mais dinâmico.
+* **Perfil Comportamental:** Integrar o histórico de compras do cliente (além do valor isolado) ajudaria a reduzir falsos positivos em transações legítimas de alto ticket.
+* **Gestão de Secrets:** Evoluir para o uso de variáveis de ambiente via *GitHub Secrets* e `.env` para garantir a segurança total das chaves de API em ambiente de produção.
 
 ---
 
