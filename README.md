@@ -12,7 +12,14 @@
 
 - **Confiabilidade e Anti-Alucinação:** Utiliza Engenharia de Prompt e dados estruturados para garantir que cada diagnóstico seja fundamentado em evidências históricas reais.)
 
-![Dashboard FraudGuard AI](https://raw.githubusercontent.com/vbiscaia-ai/dio-lab-bia-do-futuro/main/assets/print_fraudguard.png)
+## 📺 Demonstração Técnica (Pitch)
+
+Clique na imagem abaixo para assistir à apresentação completa da solução, onde detalho a análise de **517 transações** e a lógica do motor de IA:
+
+[![Assistir ao Pitch FraudGuard AI](https://raw.githubusercontent.com/vbiscaia-ai/dio-lab-bia-do-futuro/main/assets/print_fraudguard.png)](https://www.youtube.com/watch?v=c6e5m0F60J4)
+
+> [!TIP]
+> No vídeo, demonstro como identificamos que **100% dos estornos pós-expediente** eram fraudulentos e como a Loja 1 concentrava quase **R$ 2.000,00** em perdas.
 ---
 
 ## 🛡️ Documentação do Agente: FraudGuard AI
