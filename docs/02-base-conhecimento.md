@@ -33,7 +33,7 @@ O agente foi instruído a seguir uma hierarquia de consulta:
 2. **Contextualização:** Dados da pasta `/data/` (Refinamento do diagnóstico).
 3. **Saída:** Geração de Score baseado na evidência estatística encontrada nos arquivos acima.
 
-## Estratégia de Integração
+
 
 ## 🔌 Estratégia de Integração
 
