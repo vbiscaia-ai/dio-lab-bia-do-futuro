@@ -12,7 +12,7 @@
 
 - **Confiabilidade e Anti-Alucinação:** Utiliza Engenharia de Prompt e dados estruturados para garantir que cada diagnóstico seja fundamentado em evidências históricas reais.)
 
-
+![Dashboard FraudGuard AI](https://raw.githubusercontent.com/vbiscaia-ai/dio-lab-bia-do-futuro/main/assets/print_fraudguard.png)
 ---
 
 ## 🛡️ Documentação do Agente: FraudGuard AI
